@@ -1,0 +1,57 @@
+.movie__page {
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    margin-left: 30px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.movie {
+    display: flex;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.poster {
+    margin-right: 30px;
+}
+
+.movie__poster {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+.movie__description {
+    width: 350px;
+}
+
+.movie__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+.runtime {
+    margin: 5px 0;
+}
+
+.genre {
+    margin: 5px 0;
+}
+
+.overview {
+
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
